@@ -1,0 +1,14 @@
+var a1 = [1,3,6,4,8,7]
+var bla = 0
+
+for (var i = 0; i < 6; i = i + 1){
+    for( var j = i + 1; j < 6; j = j +1){
+        if ( a1[i] == a1[j] )
+           bla = 1
+     }
+}
+if (bla ==1 )
+     print("array-ul are 2 elemente egale")
+else 
+     print("array-ul nu are 2 elemente egale")
+    
