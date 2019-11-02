@@ -1,0 +1,11 @@
+var a = [2,7,5,4,1,8,6,9,4]
+
+
+for(var nr = 0; nr < a.length; nr = nr + 1) {
+    if (a[nr] % 2 == 1 ) {
+        a.splice(nr,1)
+        nr--
+    }
+}
+
+print(a)
