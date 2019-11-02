@@ -8,6 +8,7 @@ for (var i = 0; i < 6; i = i + 1){
             }
 }
 if (bla ==1 )
-    print("array-ul are 2 elemente egale")
-    else print("array-ul nu are 2 elemente egale")
+     print("array-ul are 2 elemente egale")
+else 
+     print("array-ul nu are 2 elemente egale")
     
