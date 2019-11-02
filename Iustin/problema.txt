@@ -1,0 +1,12 @@
+n=4
+a=[2,3,4,2]
+k=0
+for(var i=0;i<n;i++)
+    for(var j=i+1;j<n;j++)  
+         if(a[i]==a[j])
+          k=1
+ if(k>0)
+     print('AM GASIT');
+else
+    print('NU AM GASIT')
+     
